@@ -1,0 +1,616 @@
+/* ________________RESPONSIVE SECTION_________________ */
+
+
+button {
+	outline: none;
+	border: none;
+	border-radius: 50px;
+}
+
+/*-------------------------------------------- XS -----------------------------------------------------------------------*/
+@media (max-width: 575px) {
+	/****** FONTS *******/
+	._interfaceFont {
+		font-size: 14px;
+	}
+	._smallFont {
+		font-size: 16px;
+	}
+	._midFont {
+		font-size: 18px;
+	}
+	._headerFont {
+		font-size: 48px;
+	}
+
+	/******** BUTTONS ********/
+	._resButton { /* this is the class for all the 2 buttons type to make them responsive */ 
+		width: 157px;
+		height: 50px;
+	}
+
+	/********** INTRO **********/
+	#_introBlock { /* the whole first block */
+		height: 666px;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 50%;
+	}
+	#_introHeader { /* the big header */
+		margin-top: 8px;
+		margin-bottom: 44px;
+	}
+	#_introButton { /* the button on intro */
+		margin-bottom: 32px;
+	}
+
+
+	/********** BLOCKS **********/
+	._block {
+		height: 333px;
+	}
+
+	/* 1ST BLOCK */
+	#_info1wrapper {
+		margin-top: 5%;
+		color: #DCDCDC;
+	}
+	#_info1wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info1wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info1wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info1wrapper button {
+		margin-top: 15px;
+	}
+
+	#_flavourPic {
+		width: 304px;
+		text-align: center;
+		margin-top: 15%;
+	}
+
+	/* 2ND BLOCK */
+	#_info2wrapper {
+		margin-top: 5%;
+		color: #DCDCDC;
+	}
+	#_info2wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info2wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info2wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info2wrapper button {
+		margin-top: 15px;
+	}
+
+	#_teamPic {
+		width: 304px;
+		text-align: center;
+		margin-top: 10%;
+	}
+
+	/* 3ND BLOCK */
+	#_info3wrapper {
+		margin-top: 7%;
+		color: #DCDCDC;
+	}
+	#_info3wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info3wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info3wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info3wrapper button {
+		margin-top: 15px;
+	}
+
+	#_pricePic {
+		width: 250px;
+		text-align: center;
+		margin-top: 12%;
+	}
+}
+
+
+
+/*-------------------------------------------------- SM -----------------------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+	/****** FONTS *******/
+	._interfaceFont {
+		font-size: 16px;
+	}
+	._smallFont {
+		font-size: 18px;
+	}
+	._midFont {
+		font-size: 21px;
+	}
+	._headerFont {
+		font-size: 50px;
+	}
+
+	/******** BUTTONS ********/
+	._resButton {
+		width: 190px;
+		height: 60px;
+	}
+
+	/********** INTRO **********/
+	#_introBlock {
+		height: 760px;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 40%;
+	}
+	#_introHeader {
+		margin-top: 8px;
+		margin-bottom: 44px;
+	}
+	#_introButton {
+		margin-bottom: 32px;
+	}
+
+	/********** BLOCKS **********/
+	._block {
+		height: 380px;
+	}
+	/* 1ST BLOCK */
+	#_info1wrapper {
+		margin-top: 10%;
+		color: #DCDCDC;
+	}
+	#_info1wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info1wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info1wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info1wrapper button {
+		margin-top: 15px;
+	}
+
+	#_flavourPic {
+		width: 390px;
+		text-align: center;
+		margin-top: 7%;
+	}
+
+	/* 2ND BLOCK */
+	#_info2wrapper {
+		margin-top: 5%;
+		color: #DCDCDC;
+	}
+	#_info2wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info2wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info2wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info2wrapper button {
+		margin-top: 15px;
+	}
+
+	#_teamPic {
+		width: 380px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	/* 3ND BLOCK */
+	#_info3wrapper {
+		margin-top: 7%;
+		color: #DCDCDC;
+	}
+	#_info3wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info3wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info3wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info3wrapper button {
+		margin-top: 15px;
+	}
+
+	#_pricePic {
+		width: 250px;
+		text-align: center;
+		margin-top: 10%;
+	}
+}
+
+
+
+/*--------------------------------------------------- MD ------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/****** FONTS *******/
+	._interfaceFont {
+		font-size: 18px;
+	}
+	._smallFont {
+		font-size: 20px;
+	}
+	._midFont {
+		font-size: 24px;
+	}
+	._headerFont {
+		font-size: 54px;	
+	}
+
+	/******** BUTTONS ********/
+	._resButton {
+		width: 190px;
+		height: 60px;
+	}
+
+	/********** INTRO **********/
+	#_introBlock {
+		height: 1024px;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 50%;
+	}
+	#_introHeader {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	#_introButton {
+		margin-bottom: 40px;
+	}
+
+	/********** BLOCKS **********/
+	._block {
+		height: 512px;
+	}
+	/* 1ST BLOCK */
+	#_info1wrapper {
+		margin-top: 15%;
+		color: #DCDCDC;
+	}
+	#_info1wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info1wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info1wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info1wrapper button {
+		margin-top: 15px;
+	}
+
+	#_flavourPic {
+		width: 510px;
+		text-align: center;
+		margin-top: 10%;
+	}
+
+	/* 2ND BLOCK */
+	#_info2wrapper {
+		margin-top: 10%;
+		color: #DCDCDC;
+	}
+	#_info2wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info2wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info2wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info2wrapper button {
+		margin-top: 15px;
+	}
+
+	#_teamPic {
+		width: 510px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	/* 3ND BLOCK */
+	#_info3wrapper {
+		margin-top: 15%;
+		color: #DCDCDC;
+	}
+	#_info3wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info3wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info3wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info3wrapper button {
+		margin-top: 15px;
+	}
+
+	#_pricePic {
+		width: 373px;
+		text-align: center;
+		margin-top: 10%;
+	}
+}
+/*--------------------------------------------------- LG ----------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+-	/****** FONTS *******/
+	._interfaceFont {
+		font-size: 18px;
+	}
+	._smallFont {
+		font-size: 20px;
+	}
+	._midFont {
+		font-size: 24px;
+	}
+	._headerFont {
+		font-size: 54px;	
+	}
+
+	/******** BUTTONS ********/
+	._resButton {
+		width: 223px;
+		height: 60px;
+	}
+
+	/********** INTRO **********/
+	#_introBlock {
+		height: 570px;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 12%;
+	}
+	#_introHeader {
+		margin-top: 0px;
+		margin-bottom: 35px;
+	}
+	#_introButton {
+		margin-bottom: 20px;
+	}
+
+	/********** BLOCKS **********/
+	._block {
+		height: 570px;
+
+	}
+	/* 1ST BLOCK */
+	#_info1wrapper {
+		margin-top: 25%;
+		color: #DCDCDC;
+	}
+	#_info1wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info1wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info1wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info1wrapper button {
+		margin-top: 15px;
+	}
+
+	#_flavourPic {
+		width: 414px;
+		text-align: center;
+		margin-top: 25%;
+	}
+
+	/* 2ND BLOCK */
+	#_info2wrapper {
+		margin-top: 25%;
+		color: #DCDCDC;
+	}
+	#_info2wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info2wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info2wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info2wrapper button {
+		margin-top: 15px;
+	}
+
+	#_teamPic {
+		width: 433px;
+		text-align: center;
+		margin-top: 20%;
+	}
+	/* 3RD BLOCK */
+	#_info3wrapper {
+		margin-top: 25%;
+		color: #DCDCDC;
+	}
+	#_info3wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info3wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info3wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info3wrapper button {
+		margin-top: 15px;
+	}
+
+	#_pricePic {
+		width: 373px;
+		text-align: center;
+		margin-top: 20%;
+	}
+}
+/*----------------------------------------------------- XL ------------------------------------------------------------*/
+@media (min-width: 1200px) {
+-	/****** FONTS *******/
+	._interfaceFont {
+		font-size: 18px;
+	}
+	._smallFont {
+		font-size: 20px;
+	}
+	._midFont {
+		font-size: 24px;
+	}
+	._headerFont {
+		font-size: 54px;	
+	}
+
+	/******** BUTTONS ********/
+	._resButton {
+		width: 213px;
+		height: 58px;
+	}
+
+	/********** INTRO **********/
+	#_introBlock {
+		height: 690px;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 10%;
+	}
+	#_introHeader {
+		margin-top: 0px;
+		margin-bottom: 27px;
+	}
+	#_introButton {
+		margin-bottom: 41px;
+	}
+
+	/********** BLOCKS **********/
+	._block {
+		height: 690px;
+	}
+	/* 1ST BLOCK */
+	#_info1wrapper {
+		margin-top: 25%;
+		color: #DCDCDC;
+	}
+	#_info1wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info1wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info1wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info1wrapper button {
+		margin-top: 15px;
+	}
+
+	#_flavourPic {
+		width: 514px;
+		text-align: center;
+		margin-top: 25%;
+	}
+
+	/* 2ND BLOCK */
+	#_info2wrapper {
+		margin-top: 25%;
+		color: #DCDCDC;
+	}
+	#_info2wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info2wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info2wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info2wrapper button {
+		margin-top: 15px;
+	}
+
+	#_teamPic {
+		width: 489px;
+		text-align: center;
+		margin-top: 20%;
+	}
+
+	/* 3ND BLOCK */
+	#_info3wrapper {
+		margin-top: 20%;
+		color: #DCDCDC;
+	}
+	#_info3wrapper h1 {
+		color: white;
+		font-weight: bold;
+	}
+	#_info3wrapper h2:first-child {
+		margin-bottom: 0;
+	}
+	#_info3wrapper:nth-child(4) {
+		font-weight: bold;
+	}
+	#_info3wrapper button {
+		margin-top: 15px;
+	}
+
+	#_pricePic {
+		width: 383px;
+		text-align: center;
+		margin-top: 25%;
+	}
+
+}
+
+
+/*
+xs = Extra small <576px
+Max container width None (auto)
+
+sm = Small ≥576px
+Max container width 540px
+
+md = Medium ≥768px
+Max container width 720px
+
+lg = Large ≥992px
+Max container width 960px
+
+xl = Extra large ≥1200px
+Max container width 1140px
+*/

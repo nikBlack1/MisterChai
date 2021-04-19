@@ -1,0 +1,443 @@
+
+
+
+
+/*-------------------------------------------- XS -----------------------------------------------------------------------*/
+@media (max-width: 575px) {
+
+	._menuHeader {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+
+	.cardsPlate {
+		border-radius: 30px;
+		background-color: rgba(255, 168, 0, 0.19);
+		padding: 10px 10px 0 10px;
+	}
+
+
+	/* CARD */
+	._cardWrapper {
+
+	}
+
+	._card {
+		width: 139px;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+
+	._cardTop {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #508141;
+		height: 163px;
+	}
+
+	._cardTop:hover {
+		background-color: #406634;
+		transition: 0.5s;
+	}
+	._cardInfo {
+		padding-top: 5%;
+		margin-left: 85px;
+		color: #C7C7C7;
+	}
+
+	.cardPriceNormal {
+		color: white;
+	}
+
+	.cardPriceSale {
+		color: #E7C789;
+	}
+
+	.cardPriceOld {
+		color: #B1B1B1;
+		text-decoration: line-through;
+	}
+
+	._cardPic {
+		width: 76px;
+	}
+	._cardPrice {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5%;
+	}
+
+	._cardBottom{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		background-color: #EAB16B;
+		height: 32px;
+		cursor: pointer;
+		color: #393939;
+	}
+
+	._cardBottom:hover{
+		background-color: #B78A53;
+		color: white;
+		transition: 0.5s;
+	}
+
+	._cardAdd {
+		padding-top: 3%;
+}
+}
+/*-------------------------------------------------- SM -----------------------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+	._menuHeader {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+
+	.cardsPlate {
+		border-radius: 30px;
+		background-color: rgba(255, 168, 0, 0.19);
+		padding: 10px 10px 0 10px;
+	}
+
+
+	/* CARD */
+	._cardWrapper {
+
+	}
+
+	._card {
+		width: 149px;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+
+	._cardTop {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #508141;
+		height: 176px;
+	}
+
+	._cardTop:hover {
+		background-color: #406634;
+		transition: 0.5s;
+	}
+	._cardInfo {
+		padding-top: 5%;
+		margin-left: 90px;
+		color: #C7C7C7;
+	}
+
+	.cardPriceNormal {
+		color: white;
+	}
+
+	.cardPriceSale {
+		color: #E7C789;
+	}
+
+	.cardPriceOld {
+		color: #B1B1B1;
+		text-decoration: line-through;
+	}
+
+	._cardPic {
+		width: 80px;
+	}
+	._cardPrice {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5%;
+	}
+
+	._cardBottom{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		background-color: #EAB16B;
+		height: 35px;
+		cursor: pointer;
+		color: #393939;
+	}
+
+	._cardBottom:hover{
+		background-color: #B78A53;
+		color: white;
+		transition: 0.5s;
+	}
+
+	._cardAdd {
+		padding-top: 3%;
+}
+}
+/*--------------------------------------------------- MD ------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	._menuHeader {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+
+	.cardsPlate {
+		border-radius: 30px;
+		background-color: rgba(255, 168, 0, 0.19);
+		padding: 10px 10px 0 10px;
+	}
+
+
+	/* CARD */
+	._cardWrapper {
+
+	}
+
+	._card {
+		width: 168px;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+
+	._cardTop {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #508141;
+		height: 200px;
+	}
+
+	._cardTop:hover {
+		background-color: #406634;
+		transition: 0.5s;
+	}
+	._cardInfo {
+		padding-top: 5%;
+		margin-left: 90px;
+		color: #C7C7C7;
+	}
+
+	.cardPriceNormal {
+		color: white;
+	}
+
+	.cardPriceSale {
+		color: #E7C789;
+	}
+
+	.cardPriceOld {
+		color: #B1B1B1;
+		text-decoration: line-through;
+	}
+
+	._cardPic {
+		width: 90px;
+	}
+	._cardPrice {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5%;
+	}
+
+	._cardBottom{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		background-color: #EAB16B;
+		height: 39px;
+		cursor: pointer;
+		color: #393939;
+	}
+
+	._cardBottom:hover{
+		background-color: #B78A53;
+		color: white;
+		transition: 0.5s;
+	}
+
+	._cardAdd {
+		padding-top: 3%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.row {
+	margin-right: 0;
+}
+
+}
+/*--------------------------------------------------- LG ----------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	._menuHeader {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+
+	.cardsPlate {
+		border-radius: 30px;
+		background-color: rgba(255, 168, 0, 0.19);
+		padding: 10px 10px 0 10px;
+	}
+
+
+	/* CARD */
+	._cardWrapper {
+
+	}
+
+	._card {
+		width: 184px;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+
+	._cardTop {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #508141;
+		height: 217px;
+	}
+
+	._cardTop:hover {
+		background-color: #406634;
+		transition: 0.5s;
+	}
+	._cardInfo {
+		padding-top: 5%;
+		margin-left: 90px;
+		color: #C7C7C7;
+	}
+
+	.cardPriceNormal {
+		color: white;
+	}
+
+	.cardPriceSale {
+		color: #E7C789;
+	}
+
+	.cardPriceOld {
+		color: #B1B1B1;
+		text-decoration: line-through;
+	}
+
+	._cardPic {
+		width: 100px;
+	}
+	._cardPrice {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5%;
+	}
+
+	._cardBottom{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		background-color: #EAB16B;
+		height: 43px;
+		cursor: pointer;
+		color: #393939;
+	}
+
+	._cardBottom:hover{
+		background-color: #B78A53;
+		color: white;
+		transition: 0.5s;
+	}
+
+	._cardAdd {
+		padding-top: 3%;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.row {
+	margin-right: 0;
+}
+}
+/*----------------------------------------------------- XL ------------------------------------------------------------*/
+@media (min-width: 1200px) {
+	._menuHeader {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+
+	.cardsPlate {
+		border-radius: 30px;
+		background-color: rgba(255, 168, 0, 0.19);
+		padding: 10px 10px 0 10px;
+	}
+
+
+	/* CARD */
+	._cardWrapper {
+
+	}
+
+	._card {
+		width: 184px;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+
+	._cardTop {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #508141;
+		height: 217px;
+	}
+
+	._cardTop:hover {
+		background-color: #406634;
+		transition: 0.5s;
+	}
+	._cardInfo {
+		padding-top: 5%;
+		margin-left: 90px;
+		color: #C7C7C7;
+	}
+
+	.cardPriceNormal {
+		color: white;
+	}
+
+	.cardPriceSale {
+		color: #E7C789;
+	}
+
+	.cardPriceOld {
+		color: #B1B1B1;
+		text-decoration: line-through;
+	}
+
+	._cardPic {
+		width: 100px;
+	}
+	._cardPrice {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5%;
+	}
+
+	._cardBottom{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		background-color: #EAB16B;
+		height: 43px;
+		cursor: pointer;
+		color: #393939;
+	}
+
+	._cardBottom:hover{
+		background-color: #B78A53;
+		color: white;
+		transition: 0.5s;
+	}
+
+	._cardAdd {
+		padding-top: 3%;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.row {
+	margin-right: 0;
+}
+}

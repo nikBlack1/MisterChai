@@ -1,0 +1,47 @@
+/* ________________COMMON SECTION_________________ */
+
+body {
+	margin: 0;
+	padding: 0;
+
+	overflow: auto;
+}
+
+a {
+	text-decoration-style: none;
+	color: black;
+}
+
+
+
+
+/****** COLORS ********/
+
+/*BUTTONS*/
+.orangeButton {
+	background-color: #E7C789;
+}
+
+.greyButton {
+	background-color: #FFE5E5;
+}
+
+.orangeButton:hover {
+	background-color: #C8A96C;
+	transition: 0.2s;
+	color: white;
+}
+
+.greyButton:hover {
+	background-color: #D3BDBD;
+	transition: 0.5s;
+}
+
+/*BLOCKS*/
+.colorInfo {
+	background-color: #C18A45;
+}
+
+.colorPic {
+	background-color: #314B29;
+}
