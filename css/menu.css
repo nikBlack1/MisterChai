@@ -1,9 +1,22 @@
 
-
+.cardInfoButton {
+	background-color: rgb(0,0,0,0%);
+	color: #C7C7C7;
+}
+.cardInfoButton:hover {
+	color: white;
+	transition: 0.5s;
+}
+.cardInfoButton:focus {
+	
+	outline: none;
+}
 
 
 /*-------------------------------------------- XS -----------------------------------------------------------------------*/
 @media (max-width: 575px) {
+
+
 
 	._menuHeader {
 		margin-bottom: 40px;
@@ -51,7 +64,7 @@
 	}
 
 	.cardPriceSale {
-		color: #E7C789;
+		color: #FFB931;
 	}
 
 	.cardPriceOld {
@@ -86,9 +99,18 @@
 	._cardAdd {
 		padding-top: 3%;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.container {
+	margin-bottom: 50px;
+}
+
+
 }
 /*-------------------------------------------------- SM -----------------------------------------------------------------*/
 @media (min-width: 576px) and (max-width: 767px) {
+
+
+
 	._menuHeader {
 		margin-bottom: 40px;
 		margin-top: 40px;
@@ -135,7 +157,7 @@
 	}
 
 	.cardPriceSale {
-		color: #E7C789;
+		color: #FFB931;
 	}
 
 	.cardPriceOld {
@@ -170,9 +192,21 @@
 	._cardAdd {
 		padding-top: 3%;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.row {
+	margin-right: 0;
+}
+
+.container {
+	margin-bottom: 50px;
+}
 }
 /*--------------------------------------------------- MD ------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
+
+
+
 	._menuHeader {
 		margin-bottom: 40px;
 		margin-top: 40px;
@@ -210,7 +244,7 @@
 	}
 	._cardInfo {
 		padding-top: 5%;
-		margin-left: 90px;
+		margin-left: 110px;
 		color: #C7C7C7;
 	}
 
@@ -219,7 +253,7 @@
 	}
 
 	.cardPriceSale {
-		color: #E7C789;
+		color: #FFB931;
 	}
 
 	.cardPriceOld {
@@ -259,7 +293,9 @@
 .row {
 	margin-right: 0;
 }
-
+.container {
+	margin-bottom: 50px;
+}
 }
 /*--------------------------------------------------- LG ----------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -300,7 +336,7 @@
 	}
 	._cardInfo {
 		padding-top: 5%;
-		margin-left: 90px;
+		margin-left: 125px;
 		color: #C7C7C7;
 	}
 
@@ -309,7 +345,7 @@
 	}
 
 	.cardPriceSale {
-		color: #E7C789;
+		color: #FFB931;
 	}
 
 	.cardPriceOld {
@@ -349,6 +385,9 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .row {
 	margin-right: 0;
+}
+.container {
+	margin-bottom: 50px;
 }
 }
 /*----------------------------------------------------- XL ------------------------------------------------------------*/
@@ -390,7 +429,7 @@
 	}
 	._cardInfo {
 		padding-top: 5%;
-		margin-left: 90px;
+		margin-left: 120px;
 		color: #C7C7C7;
 	}
 
@@ -399,7 +438,7 @@
 	}
 
 	.cardPriceSale {
-		color: #E7C789;
+		color: #FFB931;
 	}
 
 	.cardPriceOld {
@@ -439,5 +478,8 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! BOOTSTRAAP OVERWRITING! !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .row {
 	margin-right: 0;
+}
+.container {
+	margin-bottom: 50px;
 }
 }

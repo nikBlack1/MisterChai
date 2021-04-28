@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tea Menu | Mister Chai</title>
-
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -27,7 +27,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </head>
-<body class="text-center">
+<body>
 	
 <!-- ________________________________CARD_________________________________________________
 <div class="_card ">
@@ -48,24 +48,22 @@
 -->
 
 <!-- ____________________NAVBAR_____________________________ -->
-
 	<nav class="navbar navbar-expand-lg navbar-light ">
-		<a class="navbar-brand  d-none d-sm-none d-md-none d-lg-block" href="#">Mister Chai</a>
+		<a class="navbar-brand  d-none d-sm-none d-md-none d-lg-block _midFont" href="home.html">Mister Chai</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="index.html">Home</a>
+		    <div class="navbar-nav _midFont">
+		      <a class="nav-item nav-link" href="home.html">Home</a>
 		      <a class="nav-item nav-link active" href="menu.html">Tea Menu</a>
 		    </div>
 	  	</div>
 	</nav>
-
 <!-- ______________________________________________________MENU_______________________________________________________ -->
 
 <!---------------------------------------- SPECIAL OFFERS ---------------------------------->
-<h1 class="_menuHeader">Special Offers</h1>
+<h1 class="_menuHeader text-center">Special Offers<sup style="color: #FF4F4F;" class="_midFont"> Hot</sup></h1>
 <div class="container ">
 	<div class="cardsPlate">
 		<div class="row text">
@@ -74,7 +72,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Emperor</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/emperor.png" alt="" >
 							</div>
@@ -93,7 +91,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Wei</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/wei.png" alt="" >
 							</div>
@@ -112,7 +110,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Philosopher</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/philosopher.png" alt="" >
 							</div>
@@ -131,7 +129,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Mister Chai</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/misterChai.png" alt="" >
 							</div>
@@ -154,7 +152,7 @@
 </div>
 
 <!---------------------------------------- CLASSICS ---------------------------------->
-<h1 class="_menuHeader">Classics</h1>
+<h1 class="_menuHeader text-center">Classics</h1>
 <div class="container ">
 	<div class="cardsPlate">
 		<div class="row text">
@@ -163,7 +161,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Emperor</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/emperor.png" alt="" >
 							</div>
@@ -182,7 +180,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Wei</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/wei.png" alt="" >
 							</div>
@@ -201,7 +199,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Philosopher</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/philosopher.png" alt="" >
 							</div>
@@ -223,7 +221,7 @@
 </div>
 
 <!---------------------------------------- FLAVOUR TEA ---------------------------------->
-<h1 class="_menuHeader">Flavour Tea</h1>
+<h1 class="_menuHeader text-center">Flavour Tea</h1>
 <div class="container ">
 	<div class="cardsPlate">
 		<div class="row text">
@@ -232,12 +230,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Ryo</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/ryo.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">0.99$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -251,12 +249,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Midori</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/midori.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">0.99$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -270,12 +268,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Feng</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/feng.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">0.99$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -289,12 +287,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Sakura</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/sakura.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">0.99$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -308,12 +306,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Umi</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/umi.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">0.99$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -331,7 +329,7 @@
 
 <!-------------------------------------- CHAI --------------------------------------------->
 
-<h1 class="_menuHeader">Chai</h1>
+<h1 class="_menuHeader text-center">Chai</h1>
 <div class="container ">
 	<div class="cardsPlate">
 		<div class="row text">
@@ -340,7 +338,7 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Mister Chai</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/misterChai.png" alt="" >
 							</div>
@@ -359,12 +357,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Ginger</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/ginger.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">1.49$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -378,12 +376,12 @@
 					<div class="_card ">
 						<h1 class="_midFont text-center">Steamy</h1>
 						<div class="_cardTop ">
-							<div class="_cardInfo"><h2 class="_midFont">Info</h2></div>
+							<div class="_cardInfo"><button class="cardInfoButton"><h2 class="_midFont">Info</h2></button></div>
 							<div class="text-center">
 								<img class="_cardPic " src="pics/cups/steamy.png" alt="" >
 							</div>
 							<div class="_cardPrice">
-								<h2 class="_midFont cardPriceSale">0.99$ <span class="_smallFont cardPriceOld">1.49$</span></h2>
+								<h2 class="_midFont cardPriceNormal">1.49$</h2>
 							</div>
 						</div>
 						<div class="_cardBottom text-center">
@@ -399,6 +397,11 @@
 	</div>	
 </div>
 
+<!-- ________________________FOOTER_____________________________ -->
+<div id="footer" class="container-fluid"></div>
 
+
+
+<script src="script/script.js"></script>
 </body>
 </html>

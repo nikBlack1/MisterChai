@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="main1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<title>Home</title>
+</head>
+<body>
+
+	<!-- ..............................NAVBAR............................................ -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-none">
+		  <div class="container">
+		   <!-- <a class="navbar-brand d-none d-sm-none d-md-none d-lg-flex" href="#">Mister Chai</a>
+		    <button id="navbarButtid" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		    		<span class="navbar-toggler-icon"></span>
+		  	</button>
+		    <div class="collapse navbar-collapse visible-xs-" id="navbarNav">
+	    		<div class="navbar-nav">
+	     				<a class="nav-item nav-link text-center active" href="#">Tea Menu</a>
+	     				<a class="nav-item nav-link text-center active" href="#">Home</a>
+	   		 	</div>
+	  		</div>
+	  		-->
+	  		<a class="navbar-brand d-none d-sm-none d-md-none d-lg-flex" href="#">Mister Chai</a>
+		  	<button id="navbarButtid" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		    		<span class="navbar-toggler-icon"></span>
+		  	</button>
+			
+	  		<div class="collapse navbar-collapse visible-xs-" id="navbarResponsive">
+	    		<div class="navbar-nav">
+	     				<a class="nav-item nav-link text-center active" href="#">Home</a>
+	     				<a class="nav-item nav-link text-center active" href="#">Tea Menu</a>
+	   		 	</div>
+	  		</div>
+		    <div class="nav justify-content-right" id="regCup">
+		    	<a href="" id="logReg">Login | Register</a>
+		    	<a href=""><img src="pics/littleCup.png" alt=""></a>
+		    	<div id="orderNum">2</div>
+		    </div>
+		  </div>
+	</nav>
+
+	<!-- ..............................INTRO............................................ -->
+
+	<section class="container" id="block1">
+		<div class="row">
+
+			<div id="introContainer">
+				<h2 class="textMid">get your Hot Tea at home</h2>
+				<h1 class="textHeader" id="introHeader">in just 30 Minutes</h1>
+				<button class="buttonOrange textMid" id="introButton">Tea Menu</button>
+				<h2 class="textMid">Why our Tea?</h2>
+				<img src="pics/arrow_down.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!-- ..............................BLOCK 2............................................ -->
+
+	<div class="container-fluid" id="block2">
+		<div class="row">
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 infoContainer">
+				<div class="infoWrapper" id="infoWrapper1">
+					<h2 class="textSmall">Reason number One</h2>
+					<h1 class="textHeader" style="font-weight: bold">Flavour</h1>
+					<h2 class="textSmall">The most exciting thing about out tea is the variety of diffrent flavours, which we get from all around the world. The best Asian and Western sorts of tea is our speciality.</h2>
+					<h2 class="textSmall" id="highlight">You will always have many options to choose from! </h2>
+					<button class="buttonGrey textSmall">Not impressed?</button>
+				</div>
+			</div>
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 picContainer">
+				<img src="pics/picBlock_flavour.png" alt="flevours.png" id="cupsPic">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 order-3 order-sm-4 order-md-4 order-lg-3 picContainer">
+				<img src="pics/team.png" alt="team.png" id="teamPic">
+			</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 order-3 order-sm-3 order-md-3 infoContainer">
+				<div class="infoWrapper" id="infoWrapper2">
+					<h2 class="textSmall">Reason number Two</h2>
+					<h1 class="textHeader" style="font-weight: bold">Our Team</h1>
+					<h2 class="textSmall">Our team consists out of true tea lovers. Everyone from us is a real tea expert you can rely on. With a good eye for small details we prvide the best serivce in terms of delivering the best tea experience</h2>
+					<h2 class="textSmall" id="highlight">You can always call us and tell your feedback!</h2>
+					<button class="buttonGrey textSmall">Still?</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 infoContainer">
+				<div class="infoWrapper" id="infoWrapper3">
+					<h2 class="textSmall">Reason number Three</h2>
+					<h1 class="textHeader" style="font-weight: bold">Price</h1>
+					<h2 class="textSmall">You are hard to impress! Well, even better. I see you have an eye for a good tea. 
+					Our Tea has a wonderful price/value relationship. Our vision is to provide the possibility to enjoy our tea for everyone and our coupons and sales will blow your mind!</h2>
+					<h2 class="textSmall" id="highlight">We value your time and finance ressources!</h2>
+					<button class="buttonGrey textSmall">See for yourself!</button>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 picContainer">
+				<img src="pics/price.png" alt="price.png" id="pricePic">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,421 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/********* BUTTONS ***************/
+
+button {
+	border-radius: 50px;
+	outline: none;
+	border: none;
+}
+
+.buttonOrange {
+	background-color: #E7C789;
+	color: black;
+	width: 157px;
+	height: 50px;
+}
+
+.buttonGrey {
+	background-color: #FFE5E5;
+	color: black;
+	height: 50px;
+}
+
+
+/********* TEXT CLASSES **********/
+
+.textInterface {
+	font-size: 2.1vw;
+}
+
+.textSmall {
+	font-size: 2.6vw;
+}
+
+.textMid {
+	font-size: 3.2vw;
+}
+
+.textHeader {
+	font-size: 8.5vw;
+}
+
+
+/************ NAVBAR *************/
+
+#logo {
+	width: 92px;
+	height: 116px;
+}
+
+#orderNum {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	background-color: #C18A45;
+	border-radius: 25px;
+	top: -10px;
+	right:12px;
+}
+
+a#logReg {
+	margin-right: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+li.nav-item:nth-child(1) {
+	padding-right: 100px;
+}
+
+#regCup {
+
+}
+
+
+
+/*************** CONTAINER CLASSES ***********************/
+
+.infoContainer {
+	background-color: #C18A45;
+	height: 650px;
+}
+
+.picContainer {
+	background-color: #314B29;
+	height: 650px;
+}
+
+.infoWrapper {
+	width: 449px;
+	margin-top: 155px;
+	color: white;
+}
+.infoWrapper h2 {
+	color: #DCDCDC;
+}
+.infoWrapper button {
+	padding: 10px;
+	width: 170px;
+
+	margin-top: 28px;
+}
+
+.infoWrapper #highlight {
+	color: white;
+}
+
+#infoWrapper1 {
+	margin-left: 100px;
+}
+
+#infoWrapper2 {
+	margin-left: 122px;
+	text-align: right;
+}
+
+#infoWrapper3 {
+	margin-left: 100px;
+}
+
+
+/********* CONTAINER PICS **************/
+
+
+#cupsPic {
+	margin-top: 127px;
+	margin-left: 81px;
+}
+
+#teamPic {
+	width: 562px;
+	height: 456px; 
+}
+
+#pricePic {
+	margin-top: 134px;
+	margin-left: 158px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media 	(max-width: 576px) {
+
+	/* ..........BUTTONS............. */
+	.buttonOrange {
+		background-color: #E7C789;
+		color: black;
+		width: 131px;
+		height: 42px;
+	}
+	/* ............ BLOCK 1 SMALL ......... */
+
+	#block1 {
+		height: 568px;
+	}
+
+	#introContainer {
+		text-align: center;
+		margin-top: 200px;
+		font-size: 25%;
+	}
+
+	
+	#introHeader{
+		margin-bottom: 38px;
+		margin-top: 0;
+	}
+	#introButton {
+		margin-bottom: 36px;
+	}
+
+/*************** CONTAINER CLASSES ***********************/
+
+.infoContainer {
+	background-color: #C18A45;
+	height: 432.5px;
+}
+
+.picContainer {
+	background-color: #314B29;
+	height: 432.5px;
+}
+
+.infoWrapper {
+	width: 349px;
+	margin-top: 155px;
+	color: white;
+}
+.infoWrapper h2 {
+	color: #DCDCDC;
+}
+.infoWrapper button {
+	padding: 10px;
+	width: 170px;
+
+	margin-top: 28px;
+}
+
+.infoWrapper #highlight {
+	color: white;
+}
+
+#infoWrapper1 {
+	margin-left: 25px;
+}
+
+#infoWrapper2 {
+	margin-left: 122px;
+	text-align: right;
+}
+
+#infoWrapper3 {
+	margin-left: 100px;
+}
+/********* CONTAINER PICS **************/
+
+
+#cupsPic {
+	height: 167.48px;
+	width: 220.33px;
+
+	margin-top: 127px;
+	margin-left: 81px;
+}
+
+#teamPic {
+	margin-top: 80px;
+	padding-right: min(40px, 10%);
+	padding-left: min(40px, 10%);
+}
+
+#pricePic {
+	margin-top: 134px;
+	margin-left: 158px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+		/* ..........BUTTONS............. */
+	.buttonOrange {
+		background-color: #E7C789;
+		color: black;
+		width: 157px;
+		height: 50px;
+	}
+
+
+	/* ............ BLOCK 1 BIG ......... */
+
+	#block1 {
+		height: 1024px;
+	}
+
+	#introContainer {
+		text-align: center;
+		margin-top: 373px;
+	}
+
+	
+	#introHeader{
+		margin-bottom: 38px;
+		margin-top: 0;
+	}
+	#introButton {
+		margin-bottom: 32px;
+	}
+
+}
+
+	/* ............ BLOCK 2 BIG ......... */
+	#block2:nth-child(1) {
+		height: 768px;
+	}
+
+/********* CONTAINER PICS **************/
+
+
+#cupsPic {
+	height: 396px;
+	width: 521px;
+
+	margin-top: 58px;
+	margin-left: 124px;
+}
+
+#teamPic {
+	width: 479px;
+	height: 389px;
+
+	margin-top: 61px;
+	padding-left: 144px;
+	
+}
+
+#pricePic {
+	margin-top: 134px;
+	margin-left: 158px;
+}
+
+/*************** CONTAINER CLASSES ***********************/
+
+.infoContainer {
+	background-color: #C18A45;
+	height: 512px;
+}
+
+.picContainer {
+	background-color: #314B29;
+	height: 512px;
+}
+
+.infoWrapper {
+	width: 349px;
+	margin-top: 86px;
+	color: white;
+	text-align: center;
+	width: 449px;
+}
+.infoWrapper h2 {
+	color: #DCDCDC;
+}
+.infoWrapper button {
+	padding: 10px;
+	width: 170px;
+
+	margin-top: 28px;
+}
+
+.infoWrapper #highlight {
+	color: white;
+}
+
+#infoWrapper1 {
+	margin-left: 158px;
+}
+
+#infoWrapper2 {
+	margin-left: 122px;
+	text-align: right;
+}
+
+#infoWrapper3 {
+	margin-left: 100px;
+}
+
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+		/* ..........BUTTONS............. */
+	.buttonOrange {
+		background-color: #E7C789;
+		color: black;
+		width: 157px;
+		height: 50px;
+	}
+
+
+	/********* TEXT CLASSES **********/
+
+	.textInterface {
+		font-size: 16px;
+	}
+
+	.textSmall {
+		font-size: 20px;
+	}
+
+	.textMid {
+		font-size: 24px;
+	}
+
+	.textHeader {
+		font-size: 64px;
+	}
+
+
+	/* ............ BLOCK 1 BIG ......... */
+
+	#block1 {
+		height: 768px;
+	}
+
+	#introContainer {
+		text-align: center;
+		margin-top: 150px;
+	}
+
+	
+	#introHeader{
+		margin-bottom: 38px;
+		margin-top: 0;
+	}
+	#introButton {
+		margin-bottom: 32px;
+	}
+
+}
+
+	/* ............ BLOCK 2 BIG ......... */
+	#block2:nth-child(1) {
+		height: 768px;
+	}
+
+}
+

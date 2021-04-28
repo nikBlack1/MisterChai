@@ -1,5 +1,9 @@
 /* ________________COMMON SECTION_________________ */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -12,14 +16,30 @@ a {
 	color: black;
 }
 
+#whyOursLink:hover {
+	text-decoration-style: none !important;
+	color: black;
+	transition: 0.5s;
+  	scroll-behavior: smooth;
+}
+
+
+
 
 
 
 /****** COLORS ********/
 
 /*BUTTONS*/
+
+
 .orangeButton {
 	background-color: #E7C789;
+	outline: none;
+}
+
+.orangeButton:focus {
+	outline: none;
 }
 
 .greyButton {

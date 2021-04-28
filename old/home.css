@@ -1,0 +1,179 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/************* BLOCK 1 *****************/
+
+.block #block_1 {
+	height: 768px;
+}
+
+#greeting {
+	text-align: center;
+	margin-top: 103px;
+}
+
+#greeting #grDesc {
+	margin: 0;
+}
+
+#greeting #grHead {
+	margin: 0;
+}
+
+#greeting #grButton {
+	margin-top: 39px;
+}
+
+#greeting #grWhyUs {
+	margin-top: 32px;
+}
+
+
+
+
+/************* BLOCK 2 *****************/
+
+
+.infoBlock {
+	background-color: #C18A45;
+	height: 768px;
+}
+
+.picBlock {
+	background-color: #314B29;
+	height: 768px;
+
+}
+
+#info2_container {
+	margin-top: 200px;
+	margin-left: 100px;
+	color: white;
+}
+
+#bl2_reason {
+	margin: 0;
+	color: #DCDCDC;
+	font-weight: regular;
+}
+
+#bl2_head {
+	margin: 0;
+}
+
+#bl2_text {
+	width: 449px;
+	margin-bottom: 23px;
+	color: #DCDCDC;
+	font-weight: regualr;
+}
+
+#bl2_catch {
+	margin-bottom: 28px;
+}
+
+#bl2_button {
+	font-weight: bold;
+}
+
+#bl2_pic {
+	margin-top: 190px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+
+/************* BLOCK 3 *****************/
+
+
+#info3_container {
+	margin-top: 200px;
+	margin-right: 100px;
+	color: white;
+	text-align: right;
+}
+
+#bl3_reason {
+	margin: 0;
+	color: #DCDCDC;
+	font-weight: regular;
+}
+
+#bl3_head {
+	margin: 0;
+}
+
+#bl3_text {
+	
+	margin-bottom: 23px;
+	margin-left: 100px;
+	color: #DCDCDC;
+	font-weight: regualr;
+	text-align: right;
+}
+
+#bl3_catch {
+	margin-bottom: 28px;
+}
+
+#bl3_button {
+	font-weight: bold;
+}
+
+#bl3_pic {
+	margin-top: 150px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+
+/************* BLOCK 4 *****************/
+
+
+#info4_container {
+	margin-top: 200px;
+	margin-left: 100px;
+	color: white;
+}
+
+#bl4_reason {
+	margin: 0;
+	color: #DCDCDC;
+	font-weight: regular;
+}
+
+#bl4_head {
+	margin: 0;
+}
+
+#bl4_text {
+	width: 449px;
+	margin-bottom: 23px;
+	color: #DCDCDC;
+	font-weight: regualr;
+}
+
+#bl4_catch {
+	margin-bottom: 28px;
+}
+
+#bl4_button {
+	font-weight: bold;
+}
+
+#bl4_pic {
+	margin-top: 210px;
+	margin-left: 158px;
+	margin-right: 158px;
+}
+
+
+
+/************* FOOTER *****************/
+
+#footer {
+	height: 282px;
+	background-color: #2C2C2C;
+}

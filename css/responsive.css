@@ -1,10 +1,13 @@
 /* ________________RESPONSIVE SECTION_________________ */
 
-
 button {
 	outline: none;
 	border: none;
 	border-radius: 50px;
+}
+
+#footer {
+	background-color: #2C2C2C;
 }
 
 /*-------------------------------------------- XS -----------------------------------------------------------------------*/
@@ -123,6 +126,10 @@ button {
 		width: 250px;
 		text-align: center;
 		margin-top: 12%;
+	}
+
+	#footer {
+		height: 150px;
 	}
 }
 
@@ -243,6 +250,10 @@ button {
 		text-align: center;
 		margin-top: 10%;
 	}
+
+		#footer {
+		height: 200px;
+	}
 }
 
 
@@ -362,9 +373,16 @@ button {
 		text-align: center;
 		margin-top: 10%;
 	}
+
+	#footer {
+		height: 250px;
+	}
 }
 /*--------------------------------------------------- LG ----------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
+	#navbarNavAltMarkup {
+	margin-left: 5%;
+	}
 -	/****** FONTS *******/
 	._interfaceFont {
 		font-size: 18px;
@@ -478,9 +496,17 @@ button {
 		text-align: center;
 		margin-top: 20%;
 	}
+
+	#footer {
+		height: 275px;
+	}
 }
 /*----------------------------------------------------- XL ------------------------------------------------------------*/
 @media (min-width: 1200px) {
+
+	#navbarNavAltMarkup {
+	margin-left: 5%;
+	}
 -	/****** FONTS *******/
 	._interfaceFont {
 		font-size: 18px;
@@ -593,6 +619,10 @@ button {
 		width: 383px;
 		text-align: center;
 		margin-top: 25%;
+	}
+
+	#footer {
+		height: 345px;
 	}
 
 }
